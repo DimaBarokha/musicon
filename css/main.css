@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600");
+header {
+  /* Style for "Прямоуголь" */
+  background-color: #ffffff;
+  background-image: linear-gradient(-27deg, rgba(0, 0, 0, 0.92) 0%, rgba(19, 19, 19, 0.92) 100%);
+  height: 100vh;
+}
+
+header nav {
+  margin: 0 98px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 142px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .navbar-links ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .navbar-links ul li a {
+  margin-left: 2vw;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 300;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+header nav .navbar-links ul li a:hover {
+  color: #22dae5;
+}
+
+header nav .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .auth .user-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  border: 1px solid #272626;
+}
+
+header nav .auth__profile {
+  font-family: Montserrat;
+  color: #585757;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+  margin-bottom: 5px;
+}
+
+header nav .auth__name {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+header nav .auth-music__icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  background-color: #222222;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

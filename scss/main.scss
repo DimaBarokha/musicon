@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
+
+header {
+    /* Style for "Прямоуголь" */
+    background-color: #ffffff;
+    background-image: linear-gradient(-27deg, rgba(0, 0, 0, 0.92) 0%, rgba(19, 19, 19, 0.92) 100%);
+    height: 100vh;
+
+    nav {
+        margin: 0 98px;
+        display: flex;
+        align-items: center;
+        height: 142px;
+        display: flex;
+        justify-content: space-between;
+        .navbar-links {
+            ul {
+                list-style: none;
+                display: flex;
+
+                li {
+                    a {
+                        margin-left: 2vw;
+                        font-family: "Montserrat";
+                        text-transform: uppercase;
+                        font-weight: 300;
+                        text-decoration: none;
+                        color: #ffffff;
+                        transition: all .5s;
+
+                        &:hover {
+                            color: #22dae5;
+                        }
+                    }
+                }
+            }
+        }
+
+        .auth {
+            display: flex;
+            align-items: center;
+
+            .user-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 59px;
+                height: 59px;
+                border-radius: 50%;
+                border: 1px solid #272626;
+            }
+
+            &__profile {
+                font-family: Montserrat;
+                color: #585757;
+                font-size: 10px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.96px;
+                margin-bottom: 5px;
+            }
+
+            &__name {
+                color: #ffffff;
+                font-family: Montserrat;
+                font-size: 10px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 1.2px;
+            }
+
+            &-music__icon {
+                width: 32px;
+                height: 32px;
+                margin-left: 30px;
+                display: flex;
+                border-radius: 50%;
+                background-color: #222222;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
